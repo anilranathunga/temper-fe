@@ -24,7 +24,7 @@
             type: 'spline'
           },
           title: {
-            text: 'Weekly user retention'
+            text: 'Weekly stepwise users retention'
           },
           xAxis: {
             categories: [35, 40, 45, 50, 55, 60, 65, 95, 99, 100]
