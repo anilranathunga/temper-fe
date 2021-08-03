@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Axios from "axios";
 
-Axios.defaults.baseURL = 'http://localhost:8081/api/';
+Axios.defaults.baseURL = process.env.VUE_APP_API_ENDPOINT;
 Axios.defaults.headers.common.Accept = 'application/json';
 
 Vue.prototype.$axios = Axios;
