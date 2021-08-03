@@ -1,9 +1,14 @@
 # temper-fe
 
 ## Project setup
+
 ```
 yarn install
 ```
+
+### Configurations
+
+Update api endpoint in `.env` file 
 
 ### Compiles and hot-reloads for development
 ```
