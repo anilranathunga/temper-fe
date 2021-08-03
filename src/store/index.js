@@ -3,13 +3,10 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
+import graph from "./modules/graph";
+
 export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    graph
   }
 })

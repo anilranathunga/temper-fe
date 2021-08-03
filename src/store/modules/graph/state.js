@@ -1,5 +1,6 @@
 const state = {
-    products: []
+    weeklyRetentionGraphData: [],
+    error: []
 }
 
 export default state
